@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Lemonada');
+:root {
+  --light-color: #f4f4f4;
+  --dark-color: rgb(150, 110, 214);
+  width: 100%;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%
+}
+
+.hidden__label {
+  margin-left: -1990px;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+input, button {
+  outline: none;
+}
+.heading__search{
+  border-radius: 7px;
+  padding: 6px 3px;
+  color: var(--light-color);
+}
+
+.heading__search:focus {
+  border: 1px solid var(--light-color);
+  background:lightslategray;
+}
+.heading-form {
+  padding: 20px;
+}
+div{
+	display: block;
+	width: 400px;
+	margin: auto;
+}
+
+h1{
+	text-align: center;
+	color: teal;
+	font-family: 'Lemonada', cursive !important;
+	text-transform: uppercase;
+}
+
+h2{
+	text-align: center;
+	color:violet;
+  font-family:serif;
+}
+h6{
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.delete {
+  float: right;
+  padding: 3px 5px;
+  background-color: rgb(236, 35, 62);
+  color: var(--light-color);
+  border: none;
+  cursor: pointer;
+}
+ul{
+	margin:0;
+	padding: 0;
+}
+
+h4{
+    color:dodgerblue;
+}
+li {
+  padding: 7px 15px;
+  border: 1px solid #ccc;
+}
+#completed-tasks span{
+	text-decoration: line-through;
+	font-size: 1.2em !important;
+}
+
+footer {
+  text-align: center;
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  font-weight: bolder;
+  margin-top: 50px;
+  padding: 10px;
+}
